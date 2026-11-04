@@ -8,8 +8,8 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 - Stage: BRAND-001 build; original logo and two ethical persuasion applications are applied locally; the learner chose to keep the responsive text and skip-to-content link; feature handoff remains incomplete.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) is closed; progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2) is merged and documents setup/decisions only. New open issue [#3](https://github.com/JivExperimenters/is117-brand-studio/issues/3) tracks the remaining BRAND-001 handoff. The feature remains incomplete on local branch `feature/brand-001` with uncommitted changes.
-- Next small decision: Decide whether to proceed with a completion PR after reviewing the remaining evidence gap: the learner has not yet explained what one actual test establishes.
+- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) is closed; progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2) is merged and documents setup/decisions only. New open issue [#3](https://github.com/JivExperimenters/is117-brand-studio/issues/3) tracks the remaining BRAND-001 handoff. The feature commit is on local branch `feature/brand-001`; pushing failed with `Permission denied (publickey)`, so no completion PR is open.
+- Next small decision: Restore SSH access to the learner's GitHub repository, then push `feature/brand-001` and open its review PR. The learner's explanation of what one actual test establishes remains incomplete.
 
 ## Product boundary
 
