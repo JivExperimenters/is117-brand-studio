@@ -8,7 +8,7 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 - Stage: Baseline tried; BRAND-001 scope agreed; brand decisions pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) exists; its body still needs the agreed scope. Local branch: `feature/brand-001`.
+- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) contains the scope in a comment. Draft progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2). Local branch: `feature/brand-001`.
 - Next small decision: Choose one contrasting secondary need to check against the same page.
 
 ## Product boundary
@@ -84,7 +84,7 @@ Write a short result and link only evidence that exists. A passing browser check
 
 | Spec ID   | Files                                      | Issue / PR | Actual checks and observations |
 | --------- | ------------------------------------------ | ---------- | ------------------------------ |
-| BRAND-001 | No feature files changed yet; setup only   | [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) | Baseline: `npm test` 7/7 and `npm run test:e2e` 10/10 passed; explicit HTML/CSS lint passed. `npm run check` stopped at formatting (32 files flagged); `npm run lint` did not match its quoted HTML glob on Windows. Learner reports size L was added and the bag showed one item, quantity 1. |
+| BRAND-001 | No feature files changed yet; setup only   | Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1); draft PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2) | Baseline: `npm test` 7/7 and `npm run test:e2e` 10/10 passed; explicit HTML/CSS lint passed. `npm run check` stopped at formatting (32 files flagged); `npm run lint` did not match its quoted HTML glob on Windows. Learner reports size L was added and the bag showed one item, quantity 1. |
 
 ## Later
 

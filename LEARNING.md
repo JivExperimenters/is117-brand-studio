@@ -19,6 +19,6 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 ## AI work and evidence links
 
 - **Work performed by AI:** Installed dependencies and Playwright Chromium; ran baseline checks. No storefront or brand implementation changed.
-- **SPEC, issue/PR, actual checks and artifacts:** [SPEC.md](./SPEC.md); [BRAND-001 issue #1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) (existing issue body still needs the agreed scope); `npm test` passed 7/7; `npm run test:e2e` passed 10/10; explicit HTML/CSS lint passed. `npm run check` stopped at Prettier, which flagged 32 starter files; `npm run lint` did not match its quoted HTML glob in the Windows shell.
+- **SPEC, issue/PR, actual checks and artifacts:** [SPEC.md](./SPEC.md); [BRAND-001 issue #1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) (scope recorded in an issue comment); [draft progress PR #2](https://github.com/JivExperimenters/is117-brand-studio/pull/2); `npm test` passed 7/7; `npm run test:e2e` passed 10/10; explicit HTML/CSS lint passed. `npm run check` stopped at Prettier, which flagged 32 starter files; `npm run lint` did not match its quoted HTML glob in the Windows shell.
 
 **Next step:** Review this later record update; then clarify the secondary audience contrast and decide whether to adopt the proposed brief.
