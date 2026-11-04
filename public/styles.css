@@ -1,12 +1,12 @@
 /* Shared brand tokens. Change these after you agree on your brand direction.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #f8f7f3;
+  --color-ink: #293630;
+  --color-muted: #59665f;
+  --color-line: #d6dad5;
+  --color-accent: #dce5df;
+  --color-soft: #e9ece8;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
@@ -179,22 +179,6 @@ p + p {
   transform: translateY(0);
 }
 
-.starter-notice {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 0.8rem 3rem;
-  background: var(--color-accent);
-  font-size: 0.73rem;
-  line-height: 1.5;
-}
-
-.starter-notice a {
-  flex-shrink: 0;
-  font-weight: 650;
-}
-
 .site-header {
   min-height: 106px;
   display: flex;
@@ -306,6 +290,7 @@ p + p {
 }
 
 .product-information h1 {
+  font-size: clamp(3.6rem, 5.5vw, 5.8rem);
   margin-top: 1.6rem;
 }
 
@@ -564,28 +549,6 @@ legend {
   font-size: 0.69rem;
 }
 
-.starter-next {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem 3rem;
-  background: var(--color-accent);
-  padding: 2.7rem 3rem 3rem;
-  margin-block: 1rem 4rem;
-}
-
-.starter-next > .eyebrow {
-  grid-column: 1 / -1;
-}
-
-.starter-next > div {
-  max-width: 470px;
-  font-size: 0.86rem;
-}
-
-.starter-next .button {
-  margin-top: 1.6rem;
-}
-
 .site-footer {
   display: flex;
   align-items: center;
@@ -682,6 +645,24 @@ legend {
   max-width: 210px;
 }
 
+.styling-tip {
+  margin-block: 1.7rem;
+  padding: 1rem 1.15rem;
+  border-left: 2px solid var(--color-ink);
+  background: var(--color-soft);
+}
+
+.styling-tip .eyebrow {
+  color: var(--color-muted);
+}
+
+.styling-tip .tip-copy {
+  max-width: 430px;
+  margin-top: 0.45rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
 .guide-content {
   min-width: 0;
 }
@@ -769,7 +750,6 @@ legend {
 
 .logo-mono {
   width: 190px;
-  filter: brightness(0);
 }
 
 .logo-variant p,
@@ -785,7 +765,7 @@ legend {
 
 .palette-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.65rem;
 }
 
@@ -950,10 +930,6 @@ legend {
     width: calc(100% - 4rem);
   }
 
-  .starter-notice {
-    padding-inline: 2rem;
-  }
-
   .site-header {
     gap: 1.7rem;
   }
@@ -991,30 +967,11 @@ legend {
     grid-template-columns: 0.35fr 1fr;
     gap: 2rem;
   }
-
-  .palette-grid {
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 1.6rem;
-  }
 }
 
 @media (width <= 760px) {
   .wrap {
     width: calc(100% - 2.5rem);
-  }
-
-  .starter-notice {
-    padding: 0.75rem 1.25rem;
-    font-size: 0.67rem;
-    gap: 1rem;
-  }
-
-  .starter-notice > span {
-    max-width: 480px;
-  }
-
-  .starter-notice a {
-    font-size: 0.65rem;
   }
 
   .site-header {
@@ -1074,7 +1031,7 @@ legend {
   }
 
   .product-information h1 {
-    font-size: clamp(4.2rem, 13vw, 7rem);
+    font-size: clamp(3rem, 10.5vw, 4.2rem);
     margin-top: 1rem;
   }
 
@@ -1099,17 +1056,6 @@ legend {
 
   .bag-section h2 {
     margin-top: 0.6rem;
-  }
-
-  .starter-next {
-    grid-template-columns: 1fr;
-    padding: 1.8rem;
-    gap: 1.3rem;
-    margin-block: 1rem 3rem;
-  }
-
-  .starter-next > div {
-    max-width: none;
   }
 
   .site-footer {
@@ -1177,10 +1123,6 @@ legend {
     font-size: 0.73rem;
   }
 
-  .palette-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
   .color-swatch {
     height: 85px;
   }
@@ -1203,12 +1145,6 @@ legend {
 }
 
 @media (width <= 420px) {
-  .starter-notice {
-    align-items: start;
-    flex-direction: column;
-    gap: 0.35rem;
-  }
-
   .visual-label {
     inset: 1rem 1rem auto;
     font-size: 0.53rem;
@@ -1249,10 +1185,6 @@ legend {
 
   .decision-grid p:last-child {
     grid-column: 2;
-  }
-
-  .palette-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .color-swatch {
