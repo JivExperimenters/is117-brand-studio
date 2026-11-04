@@ -2,7 +2,7 @@
 
 **The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+**Current project status:** The ComfyCloth `BRAND-001` storefront and live style guide are complete and merged in [PR #4](https://github.com/JivExperimenters/is117-brand-studio/pull/4). The audience hypotheses, design decisions, and actual checks are recorded in [SPEC.md](SPEC.md). No GitHub Pages deployment has been verified, so this README does not claim a live site.
 
 **A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
 
@@ -54,17 +54,17 @@ You work at your own pace. There is no required class demonstration, quiz, separ
 
 ## What is here
 
-| File                                   | Purpose                                                                                                    |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `public/index.html`                    | Working storefront; the first branding feature is still pending                                            |
-| `public/styleguide.html`               | Live identity board using the storefront's shared styles and assets                                        |
-| `public/studio.html`                   | Short studio overview, also [available online](https://kaw393939.github.io/is117-brand-studio/studio.html) |
-| [SPEC.md](SPEC.md)                     | The concise record of your chosen decisions and evidence                                                   |
-| [AGENTS.md](AGENTS.md)                 | Instructions for your AI coach                                                                             |
-| [LEARNING.md](LEARNING.md)             | Brief AI-drafted conversation evidence for you to review; no full transcript or automatic grade            |
-| [docs/reference.md](docs/reference.md) | Short explanations and source links to use when needed                                                     |
+| File                                   | Purpose                                                                                         |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `public/index.html`                    | Completed ComfyCloth storefront with size selection and demo bag                                |
+| `public/styleguide.html`               | Live identity board using the storefront's shared styles and assets                             |
+| `public/studio.html`                   | Short studio overview                                                                           |
+| [SPEC.md](SPEC.md)                     | The concise record of your chosen decisions and evidence                                        |
+| [AGENTS.md](AGENTS.md)                 | Instructions for your AI coach                                                                  |
+| [LEARNING.md](LEARNING.md)             | Brief AI-drafted conversation evidence for you to review; no full transcript or automatic grade |
+| [docs/reference.md](docs/reference.md) | Short explanations and source links to use when needed                                          |
 
-The README is the authoritative startup path. The online overview introduces the exercise; it does not replace your local project or chat.
+The README is the authoritative startup path. The local studio overview introduces the exercise; it is not a deployed storefront.
 
 ## Prepared checks
 
