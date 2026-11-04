@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 64" role="img" aria-labelledby="title description">
+  <title id="title">ComfyCloth wordmark</title>
+  <desc id="description">A single-color wordmark with three soft curved lines beside the ComfyCloth name.</desc>
+  <g fill="none" stroke="#435c53" stroke-linecap="round" stroke-width="3">
+    <path d="M7 22c8-8 18-8 26 0" />
+    <path d="M7 32c8-8 18-8 26 0" />
+    <path d="M7 42c8-8 18-8 26 0" />
+  </g>
+  <text
+    x="46"
+    y="41"
+    fill="#435c53"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="27"
+    font-weight="600"
+    letter-spacing="-0.8"
+  >ComfyCloth</text>
+</svg>

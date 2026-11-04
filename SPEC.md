@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline tried; BRAND-001 scope agreed; brand decisions pending.
+- Stage: BRAND-001 build; original logo and two ethical persuasion applications are applied locally; the learner chose to keep the responsive text and skip-to-content link; feature handoff remains incomplete.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) contains the scope in a comment. Draft progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2). Local branch: `feature/brand-001`.
-- Next small decision: Choose ComfyCloth's three voice traits and a sample line.
+- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) is closed; progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2) is merged and documents setup/decisions only. New open issue [#3](https://github.com/JivExperimenters/is117-brand-studio/issues/3) tracks the remaining BRAND-001 handoff. The feature remains incomplete on local branch `feature/brand-001` with uncommitted changes.
+- Next small decision: Decide whether to proceed with a completion PR after reviewing the remaining evidence gap: the learner has not yet explained what one actual test establishes.
 
 ## Product boundary
 
@@ -19,23 +19,23 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience                                                          | Secondary audience                                                                       |
-| ------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Person in a concrete situation        | Someone on a day when they only have classes | Someone deciding what to wear to an interview or professional event |
-| Goal or meaning they seek             | Wants comfort and simplicity | Not chosen yet |
-| Concern before choosing               | Does not want heavy-feeling clothes | Not chosen yet |
-| What the page should help them decide | Whether a plain white tee suits the simple look they want for a class-only day (AI proposal accepted) | Whether they feel like wearing the tee to an interview or professional event |
-| Evidence or assumption                | Learner's initial hypothesis; not validated; product comfort/weight not established | Learner-selected situation; audience need and suitability of this tee for any occasion are unvalidated |
+| Tiny card                             | Primary audience                                                                                      | Secondary audience                                                                                     |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Person in a concrete situation        | Someone on a day when they only have classes                                                          | Someone deciding what to wear to an interview or professional event                                    |
+| Goal or meaning they seek             | Wants comfort and simplicity                                                                          | Not chosen yet                                                                                         |
+| Concern before choosing               | Does not want heavy-feeling clothes                                                                   | Not chosen yet                                                                                         |
+| What the page should help them decide | Whether a plain white tee suits the simple look they want for a class-only day (AI proposal accepted) | Whether they feel like wearing the tee to an interview or professional event                           |
+| Evidence or assumption                | Learner's initial hypothesis; not validated; product comfort/weight not established                   | Learner-selected situation; audience need and suitability of this tee for any occasion are unvalidated |
 
 ## Early brand brief
 
-| Decision                                 | Agreement                                                       |
-| ---------------------------------------- | --------------------------------------------------------------- |
-| Brand name                               | ComfyCloth |
-| One-sentence promise                     | “Comfy wear for Calm days” (learner's wording; comfort claim is not verified product evidence) |
-| Primary archetype: the brand's character | Caregiver (learner's choice)                                    |
-| Three voice traits                       | Gentle, comforting, casual (learner's selection; light-hearted omitted) |
-| One example line in this voice           | “When in simple day, ComfyCloth is here for you” (learner's revised wording) |
+| Decision                                 | Agreement                                                                                                                                                                   |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brand name                               | ComfyCloth                                                                                                                                                                  |
+| One-sentence promise                     | “Comfy wear for Calm days” (learner's wording; comfort claim is not verified product evidence)                                                                              |
+| Primary archetype: the brand's character | Caregiver (learner's choice)                                                                                                                                                |
+| Three voice traits                       | Gentle, comforting, casual (learner's selection; light-hearted omitted)                                                                                                     |
+| One example line in this voice           | “When in simple day, ComfyCloth is here for you” (learner's revised wording)                                                                                                |
 | Learner's predicted audience effect      | Learner predicts the calm, caring direction may feel comforting and non-distracting, and hopes it feels “unitchy”; this is an unvalidated expectation, not a product claim. |
 
 ## Visual decision
@@ -44,25 +44,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item                                              | Agreement or evidence                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Shared headline / support / action                | “Comfy wear for Calm days” / “When in simple day, ComfyCloth is here for you” / “Choose your size” (identical in both previews)                                                                                                                                                                                                                                                                                    |
+| Modernist preview, reference, and annotations     | [public/explorations/index.html](public/explorations/index.html), simplified grid-led cream layout with a thin muted-warm rule and medium-weight headline; Herbert Bayer (with other artists), _Film und Foto_, exhibition catalogue (1929), [Art Institute of Chicago](https://www.artic.edu/artworks/199243/film-und-foto). Inspected museum cover; choices, intended effect, and risk are annotated in preview. |
+| Postmodernist preview, reference, and annotations | [public/explorations/index.html](public/explorations/index.html), layered panels and contrasting coral/blue-green; Barbara Kruger, _Untitled (Perfect)_ (1980), [Art Institute of Chicago](https://www.artic.edu/artworks/159464/untitled-perfect). Inspected museum image; choices, intended effect, and risk are annotated in preview.                                                                           |
+| Chosen direction and reason                       | After viewing the actual pair, learner chose modernist and asked to make it “minimalist and simple.” AI simplified the rule and headline styling. Learner's earlier low-pressure rationale followed an AI example; review of this revised version is pending.                                                                                                                                                      |
+| Original SVG logo                                 | Learner approved the soft-line, one-color wordmark and selected it over an optional AI refinement. After an AI example, learner explained: “Attracted without the heavyness and just comfort purpose in every detail in page.” This is assisted reasoning about the page's visual intent, not evidence that the shirt is physically comfortable. The original logo now appears in the site navigation and guide.   |
+| Monochrome and small-size variants                | Both one-color SVG options render at 155 × 32 px in the comparison.                                                                                                                                                                                                                                                                                                                                                |
+| Logo review at actual use size                    | The selected original SVG loaded at 150px desktop and 130px mobile navigation widths; personal browser review is pending.                                                                                                                                                                                                                                                                                          |
+| Shared palette, typography, spacing, and assets   | AI-proposed warm paper, soft sage, and dark ink with the existing sans-serif stack and spacious grid; learner's first browser impression was “comforting and simple,” but no specific color/spacing rationale was given. Shared CSS drives storefront and guide.                                                                                                                                                   |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Principle   | Actual copy or interaction                                                                                                                         | Visitor benefit / factual support                                                                                                  |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Reciprocity | “For a simple class day, pair the simple shirt with something you already like wearing.” A visible free styling tip appears before size selection. | Offers an outfit idea without requiring a size choice or demo-bag action; it makes no claim about shirt comfort, material, or fit. |
+| Liking      | “When in simple day, ComfyCloth is here for you” appears as the warm supporting line below the headline.                                           | Gentle wording and the shared simple-day context are intended to make the page feel welcoming without claiming physical comfort.   |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -82,9 +82,9 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files                                      | Issue / PR | Actual checks and observations |
-| --------- | ------------------------------------------ | ---------- | ------------------------------ |
-| BRAND-001 | No feature files changed yet; setup only   | Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1); draft PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2) | Baseline: `npm test` 7/7 and `npm run test:e2e` 10/10 passed; explicit HTML/CSS lint passed. `npm run check` stopped at formatting (32 files flagged); `npm run lint` did not match its quoted HTML glob on Windows. Learner reports size L was added and the bag showed one item, quantity 1. |
+| Spec ID   | Files                                                                                                                                                                                                                                                                                                      | Issue / PR                                                                                                                                                                                                                                                            | Actual checks and observations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BRAND-001 | [public/index.html](public/index.html), [public/styleguide.html](public/styleguide.html), [public/styles.css](public/styles.css), [public/studio.html](public/studio.html), [public/explorations/index.html](public/explorations/index.html), [tests/browser/studio.spec.js](tests/browser/studio.spec.js) | Closed issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1); merged progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2); open tracking issue [#3](https://github.com/JivExperimenters/is117-brand-studio/issues/3) | `npm test` passed 7/7; `npx playwright test` passed 11/11, including the check that the outfit tip is visible with no selected size and an empty bag. Focused Prettier, HTML validation, Stylelint, and ESLint passed on changed source. Chromium inspection at 1440px and 390px found loaded images and no horizontal overflow across the storefront, guide, and studio overview; the storefront and guide share live CSS tokens. Learner-reported first impression: “comforting and simple”; mobile: text looked neat and adjusted to the screen size; keyboard: noticed “skip to content.” The learner chose to keep both details, explaining that visitors could view the page on any device; the stated reason applies to responsive text, with no separate skip-link benefit given. The learner's explanation of what one actual test establishes remains incomplete after an AI hint. `npm run check` stopped at repository-wide formatting: after formatting edited files, 25 unrelated existing files remain flagged, so its lint/test stages did not run. Baseline observation: size L added; bag showed one item, quantity 1. |
 
 ## Later
 

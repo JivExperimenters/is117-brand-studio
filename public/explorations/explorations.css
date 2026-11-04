@@ -1,0 +1,426 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242522;
+  background: #f5f2eb;
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.18em;
+}
+
+a:focus-visible {
+  outline: 3px solid #222;
+  outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 5;
+  inset: 0 auto auto 0;
+  transform: translateY(-150%);
+  padding: 0.75rem 1rem;
+  color: #fff;
+  background: #222;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.exploration-page {
+  width: min(100% - 3rem, 1440px);
+  margin: 0 auto;
+  padding: 3.5rem 0 2rem;
+}
+
+.exploration-header {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.page-label,
+.direction-number {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.exploration-header h1 {
+  max-width: 700px;
+  margin: 0.8rem 0;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.page-intro {
+  max-width: 640px;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.logo-study {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border: 1px dashed #9b9387;
+  background: #fffefa;
+}
+
+.logo-study h2 {
+  margin: 0.45rem 0;
+  font-size: 1.4rem;
+}
+
+.logo-study-description {
+  max-width: 34rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.logo-specimens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.logo-specimen {
+  display: flex;
+  min-width: 0;
+  min-height: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.9rem;
+  border: 1px solid #d5d0c6;
+  background: #f5f2eb;
+}
+
+.logo-specimen img {
+  display: block;
+  width: 155px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.logo-specimen-mono {
+  background: #fff;
+}
+
+.logo-specimen-caption {
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.direction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.direction {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid #c9c4ba;
+  background: #fffefa;
+}
+
+.direction-heading {
+  margin-bottom: 1rem;
+}
+
+.direction-heading h2 {
+  margin: 0.4rem 0 0;
+  font-size: 1.5rem;
+}
+
+.hero-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1fr);
+  align-items: center;
+  min-height: 430px;
+  overflow: hidden;
+}
+
+.hero-product {
+  position: relative;
+  min-width: 0;
+}
+
+.shirt-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 1;
+  padding: 1.4rem;
+}
+
+.brand-name {
+  margin: 0 0 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.hero-headline {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.8rem);
+  line-height: 1.02;
+  letter-spacing: -0.06em;
+}
+
+.hero-support {
+  margin: 1.1rem 0 1.4rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.hero-action {
+  display: inline-flex;
+  min-height: 2.9rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.7rem 0.95rem;
+  border: 1px solid currentcolor;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-action:hover {
+  text-decoration: underline;
+}
+
+.design-notes {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #c9c4ba;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.design-notes h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+}
+
+.design-notes p {
+  margin: 0.65rem 0;
+}
+
+.design-notes ul {
+  padding-left: 1.2rem;
+  margin: 0.85rem 0;
+}
+
+.design-notes li + li {
+  margin-top: 0.4rem;
+}
+
+.reference {
+  color: #454640;
+}
+
+.direction-modernist .hero-preview {
+  background: #f2eee4;
+  border-top: 2px solid #a89580;
+}
+
+.direction-modernist .hero-product {
+  align-self: stretch;
+  display: grid;
+  align-items: center;
+  padding: 0.5rem;
+  border-right: 1px solid #c6bfb1;
+}
+
+.direction-modernist .hero-copy {
+  padding-left: 1.1rem;
+}
+
+.direction-modernist .brand-name {
+  color: #62594f;
+}
+
+.direction-modernist .hero-headline {
+  font-weight: 600;
+  letter-spacing: -0.045em;
+}
+
+.direction-modernist .hero-action {
+  color: #fff;
+  border-color: #242522;
+  background: #242522;
+}
+
+.direction-postmodern .hero-preview {
+  position: relative;
+  isolation: isolate;
+  background: #f2d4c6;
+  border: 1px solid #242522;
+}
+
+.direction-postmodern .hero-preview::before,
+.direction-postmodern .hero-preview::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+
+.direction-postmodern .hero-preview::before {
+  inset: 7% 48% 54% -5%;
+  transform: rotate(-5deg);
+  background: #3a7776;
+}
+
+.direction-postmodern .hero-preview::after {
+  inset: 62% -8% -4% 37%;
+  transform: rotate(4deg);
+  background: #df7357;
+}
+
+.direction-postmodern .hero-product {
+  transform: rotate(-2deg);
+  box-shadow: 0.5rem 0.5rem 0 #3a7776;
+}
+
+.direction-postmodern .hero-copy {
+  margin: 1rem 0.65rem 1rem -0.9rem;
+  padding: 1.2rem;
+  border: 1px solid #242522;
+  background: #fffefa;
+  box-shadow: 0.35rem 0.35rem 0 #df7357;
+}
+
+.direction-postmodern .hero-headline {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+}
+
+.direction-postmodern .brand-name {
+  color: #255a59;
+}
+
+.direction-postmodern .hero-action {
+  background: #3a7776;
+  color: #fff;
+  border-color: #255a59;
+}
+
+.exploration-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #c9c4ba;
+  font-size: 0.85rem;
+}
+
+.exploration-footer p {
+  max-width: 620px;
+  margin: 0;
+}
+
+@media (width <= 900px) {
+  .direction-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-study {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-preview {
+    min-height: 380px;
+  }
+}
+
+@media (width <= 520px) {
+  .exploration-page {
+    width: min(100% - 1.25rem, 1440px);
+    padding-top: 2rem;
+  }
+
+  .direction {
+    padding: 0.75rem;
+  }
+
+  .logo-specimens {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-preview {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+    min-height: 0;
+  }
+
+  .hero-copy {
+    padding: 0.85rem;
+  }
+
+  .brand-name {
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .hero-headline {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+  }
+
+  .hero-support {
+    font-size: 0.82rem;
+  }
+
+  .hero-action {
+    width: 100%;
+    gap: 0.5rem;
+    padding-inline: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .direction-postmodern .hero-copy {
+    margin-left: -0.65rem;
+    padding: 0.8rem;
+  }
+
+  .exploration-footer {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

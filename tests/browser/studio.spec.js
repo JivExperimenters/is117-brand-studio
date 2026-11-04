@@ -13,6 +13,18 @@ test("negative: choosing no size explains the problem and keeps the bag empty", 
   await expect(page.locator("#bag-count")).toHaveText("0");
 });
 
+test("a free outfit tip is available without choosing a size", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const tip = page.getByRole("complementary", { name: "Free outfit idea" });
+  await expect(tip).toContainText(
+    "For a simple class day, pair the simple shirt with something you already like wearing.",
+  );
+  await expect(page.locator('input[name="size"]:checked')).toHaveCount(0);
+  await expect(page.locator("#bag-count")).toHaveText("0");
+});
+
 test("positive: a shopper can choose sizes, add items, and empty the demo bag", async ({
   page,
 }) => {
