@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: Baseline tried; BRAND-001 scope agreed; brand decisions pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) exists; its body still needs the agreed scope. Local branch: `feature/brand-001`.
+- Next small decision: Choose one contrasting secondary need to check against the same page.
 
 ## Product boundary
 
@@ -19,23 +19,23 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card                             | Primary audience                                                          | Secondary audience                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Person in a concrete situation        | Someone on a day when they only have classes | Not chosen yet; learner mentioned liking a fancy coat or stylized flannel |
+| Goal or meaning they seek             | Wants comfort and simplicity | Not chosen yet |
+| Concern before choosing               | Does not want heavy-feeling clothes | Not chosen yet |
+| What the page should help them decide | Whether a plain white tee suits the simple look they want for a class-only day (AI proposal accepted) | Not chosen yet |
+| Evidence or assumption                | Learner's initial hypothesis; not validated; product comfort/weight not established | Early idea only; the contrasting need and page decision remain to be clarified |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
+| Decision                                 | Agreement                                                       |
+| ---------------------------------------- | --------------------------------------------------------------- |
+| Brand name                               | ComfyCloth |
+| One-sentence promise                     | Not chosen yet                                                  |
+| Primary archetype: the brand's character | Not chosen yet                                                  |
+| Three voice traits                       | Calm, easy, softly confident; low-stress mood, not overworked   |
+| One example line in this voice           | Not chosen yet                                                  |
 | Learner's predicted audience effect      | Not chosen yet |
 
 ## Visual decision
@@ -82,9 +82,9 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| Spec ID   | Files                                      | Issue / PR | Actual checks and observations |
+| --------- | ------------------------------------------ | ---------- | ------------------------------ |
+| BRAND-001 | No feature files changed yet; setup only   | [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) | Baseline: `npm test` 7/7 and `npm run test:e2e` 10/10 passed; explicit HTML/CSS lint passed. `npm run check` stopped at formatting (32 files flagged); `npm run lint` did not match its quoted HTML glob on Windows. Learner reports size L was added and the bag showed one item, quantity 1. |
 
 ## Later
 
