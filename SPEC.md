@@ -9,7 +9,7 @@ This is the durable agreement between the learner and agent. Keep it concise and
 - Stage: Baseline tried; BRAND-001 scope agreed; brand decisions pending.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
 - Status: Scope agreed. Issue [#1](https://github.com/JivExperimenters/is117-brand-studio/issues/1) contains the scope in a comment. Draft progress PR [#2](https://github.com/JivExperimenters/is117-brand-studio/pull/2). Local branch: `feature/brand-001`.
-- Next small decision: Choose one contrasting secondary need to check against the same page.
+- Next small decision: Choose ComfyCloth's three voice traits and a sample line.
 
 ## Product boundary
 
@@ -21,22 +21,22 @@ The primary need guides the page. Give the secondary card one contrasting need t
 
 | Tiny card                             | Primary audience                                                          | Secondary audience                                                                       |
 | ------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Person in a concrete situation        | Someone on a day when they only have classes | Not chosen yet; learner mentioned liking a fancy coat or stylized flannel |
+| Person in a concrete situation        | Someone on a day when they only have classes | Someone deciding what to wear to an interview or professional event |
 | Goal or meaning they seek             | Wants comfort and simplicity | Not chosen yet |
 | Concern before choosing               | Does not want heavy-feeling clothes | Not chosen yet |
-| What the page should help them decide | Whether a plain white tee suits the simple look they want for a class-only day (AI proposal accepted) | Not chosen yet |
-| Evidence or assumption                | Learner's initial hypothesis; not validated; product comfort/weight not established | Early idea only; the contrasting need and page decision remain to be clarified |
+| What the page should help them decide | Whether a plain white tee suits the simple look they want for a class-only day (AI proposal accepted) | Whether they feel like wearing the tee to an interview or professional event |
+| Evidence or assumption                | Learner's initial hypothesis; not validated; product comfort/weight not established | Learner-selected situation; audience need and suitability of this tee for any occasion are unvalidated |
 
 ## Early brand brief
 
 | Decision                                 | Agreement                                                       |
 | ---------------------------------------- | --------------------------------------------------------------- |
 | Brand name                               | ComfyCloth |
-| One-sentence promise                     | Not chosen yet                                                  |
-| Primary archetype: the brand's character | Not chosen yet                                                  |
-| Three voice traits                       | Calm, easy, softly confident; low-stress mood, not overworked   |
-| One example line in this voice           | Not chosen yet                                                  |
-| Learner's predicted audience effect      | Not chosen yet |
+| One-sentence promise                     | “Comfy wear for Calm days” (learner's wording; comfort claim is not verified product evidence) |
+| Primary archetype: the brand's character | Caregiver (learner's choice)                                    |
+| Three voice traits                       | Gentle, comforting, casual (learner's selection; light-hearted omitted) |
+| One example line in this voice           | “When in simple day, ComfyCloth is here for you” (learner's revised wording) |
+| Learner's predicted audience effect      | Learner predicts the calm, caring direction may feel comforting and non-distracting, and hopes it feels “unitchy”; this is an unvalidated expectation, not a product claim. |
 
 ## Visual decision
 
